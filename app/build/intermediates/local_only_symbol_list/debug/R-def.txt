@@ -1,0 +1,40 @@
+R_DEF: Internal format may change without notice
+local
+attr? appWidgetInnerRadius
+attr? appWidgetPadding
+attr? appWidgetRadius
+color black
+color light_blue_200
+color light_blue_50
+color light_blue_600
+color light_blue_900
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+dimen widget_margin
+drawable app_widget_background
+drawable app_widget_inner_view_background
+drawable example_appwidget_preview
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id appwidget_text
+layout activity_main
+layout new_app_widget
+mipmap ic_launcher
+mipmap ic_launcher_round
+string add_widget
+string app_name
+string app_widget_description
+string appwidget_text
+style Theme.AndroidWidjet
+style Theme.AndroidWidjet.AppWidgetContainer
+style Theme.AndroidWidjet.AppWidgetContainerParent
+style Widget.AndroidWidjet.AppWidget.Container
+style Widget.AndroidWidjet.AppWidget.InnerView
+styleable AppWidgetAttrs appWidgetPadding appWidgetInnerRadius appWidgetRadius
+xml backup_rules
+xml data_extraction_rules
+xml new_app_widget_info

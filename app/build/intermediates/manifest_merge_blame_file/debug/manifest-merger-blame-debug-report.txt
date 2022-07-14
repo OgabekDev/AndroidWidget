@@ -1,0 +1,102 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="dev.ogabek.androidwidjet"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->/Users/ogabekmatyakubov/AndroidStudioProjects/AndroidWidjet/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/Users/ogabekmatyakubov/AndroidStudioProjects/AndroidWidjet/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/ogabekmatyakubov/AndroidStudioProjects/AndroidWidjet/app/src/main/AndroidManifest.xml:6:5-66
+11-->/Users/ogabekmatyakubov/AndroidStudioProjects/AndroidWidjet/app/src/main/AndroidManifest.xml:6:22-64
+12
+13    <application
+13-->/Users/ogabekmatyakubov/AndroidStudioProjects/AndroidWidjet/app/src/main/AndroidManifest.xml:8:5-39:19
+14        android:allowBackup="true"
+14-->/Users/ogabekmatyakubov/AndroidStudioProjects/AndroidWidjet/app/src/main/AndroidManifest.xml:9:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.7.0] /Users/ogabekmatyakubov/.gradle/caches/transforms-3/8cbeeae980f8058e235c1e3126073f0b/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+16        android:dataExtractionRules="@xml/data_extraction_rules"
+16-->/Users/ogabekmatyakubov/AndroidStudioProjects/AndroidWidjet/app/src/main/AndroidManifest.xml:10:9-65
+17        android:debuggable="true"
+18        android:extractNativeLibs="false"
+19        android:fullBackupContent="@xml/backup_rules"
+19-->/Users/ogabekmatyakubov/AndroidStudioProjects/AndroidWidjet/app/src/main/AndroidManifest.xml:11:9-54
+20        android:icon="@mipmap/ic_launcher"
+20-->/Users/ogabekmatyakubov/AndroidStudioProjects/AndroidWidjet/app/src/main/AndroidManifest.xml:12:9-43
+21        android:label="@string/app_name"
+21-->/Users/ogabekmatyakubov/AndroidStudioProjects/AndroidWidjet/app/src/main/AndroidManifest.xml:13:9-41
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->/Users/ogabekmatyakubov/AndroidStudioProjects/AndroidWidjet/app/src/main/AndroidManifest.xml:14:9-54
+23        android:supportsRtl="true"
+23-->/Users/ogabekmatyakubov/AndroidStudioProjects/AndroidWidjet/app/src/main/AndroidManifest.xml:15:9-35
+24        android:testOnly="true"
+25        android:theme="@style/Theme.AndroidWidjet" >
+25-->/Users/ogabekmatyakubov/AndroidStudioProjects/AndroidWidjet/app/src/main/AndroidManifest.xml:16:9-51
+26        <receiver
+26-->/Users/ogabekmatyakubov/AndroidStudioProjects/AndroidWidjet/app/src/main/AndroidManifest.xml:18:9-28:20
+27            android:name="dev.ogabek.androidwidjet.NewAppWidget"
+27-->/Users/ogabekmatyakubov/AndroidStudioProjects/AndroidWidjet/app/src/main/AndroidManifest.xml:19:13-41
+28            android:exported="false" >
+28-->/Users/ogabekmatyakubov/AndroidStudioProjects/AndroidWidjet/app/src/main/AndroidManifest.xml:20:13-37
+29            <intent-filter>
+29-->/Users/ogabekmatyakubov/AndroidStudioProjects/AndroidWidjet/app/src/main/AndroidManifest.xml:21:13-23:29
+30                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+30-->/Users/ogabekmatyakubov/AndroidStudioProjects/AndroidWidjet/app/src/main/AndroidManifest.xml:22:17-84
+30-->/Users/ogabekmatyakubov/AndroidStudioProjects/AndroidWidjet/app/src/main/AndroidManifest.xml:22:25-81
+31            </intent-filter>
+32
+33            <meta-data
+33-->/Users/ogabekmatyakubov/AndroidStudioProjects/AndroidWidjet/app/src/main/AndroidManifest.xml:25:13-27:63
+34                android:name="android.appwidget.provider"
+34-->/Users/ogabekmatyakubov/AndroidStudioProjects/AndroidWidjet/app/src/main/AndroidManifest.xml:26:17-58
+35                android:resource="@xml/new_app_widget_info" />
+35-->/Users/ogabekmatyakubov/AndroidStudioProjects/AndroidWidjet/app/src/main/AndroidManifest.xml:27:17-60
+36        </receiver>
+37
+38        <activity
+38-->/Users/ogabekmatyakubov/AndroidStudioProjects/AndroidWidjet/app/src/main/AndroidManifest.xml:30:9-38:20
+39            android:name="dev.ogabek.androidwidjet.MainActivity"
+39-->/Users/ogabekmatyakubov/AndroidStudioProjects/AndroidWidjet/app/src/main/AndroidManifest.xml:31:13-41
+40            android:exported="true" >
+40-->/Users/ogabekmatyakubov/AndroidStudioProjects/AndroidWidjet/app/src/main/AndroidManifest.xml:32:13-36
+41            <intent-filter>
+41-->/Users/ogabekmatyakubov/AndroidStudioProjects/AndroidWidjet/app/src/main/AndroidManifest.xml:33:13-37:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->/Users/ogabekmatyakubov/AndroidStudioProjects/AndroidWidjet/app/src/main/AndroidManifest.xml:34:17-69
+42-->/Users/ogabekmatyakubov/AndroidStudioProjects/AndroidWidjet/app/src/main/AndroidManifest.xml:34:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->/Users/ogabekmatyakubov/AndroidStudioProjects/AndroidWidjet/app/src/main/AndroidManifest.xml:36:17-77
+44-->/Users/ogabekmatyakubov/AndroidStudioProjects/AndroidWidjet/app/src/main/AndroidManifest.xml:36:27-74
+45            </intent-filter>
+46        </activity>
+47
+48        <provider
+48-->[androidx.emoji2:emoji2:1.0.0] /Users/ogabekmatyakubov/.gradle/caches/transforms-3/285b36096429d634aa032f9c7d3c5a9a/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+49            android:name="androidx.startup.InitializationProvider"
+49-->[androidx.emoji2:emoji2:1.0.0] /Users/ogabekmatyakubov/.gradle/caches/transforms-3/285b36096429d634aa032f9c7d3c5a9a/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+50            android:authorities="dev.ogabek.androidwidjet.androidx-startup"
+50-->[androidx.emoji2:emoji2:1.0.0] /Users/ogabekmatyakubov/.gradle/caches/transforms-3/285b36096429d634aa032f9c7d3c5a9a/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+51            android:exported="false" >
+51-->[androidx.emoji2:emoji2:1.0.0] /Users/ogabekmatyakubov/.gradle/caches/transforms-3/285b36096429d634aa032f9c7d3c5a9a/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+52            <meta-data
+52-->[androidx.emoji2:emoji2:1.0.0] /Users/ogabekmatyakubov/.gradle/caches/transforms-3/285b36096429d634aa032f9c7d3c5a9a/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+53                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+53-->[androidx.emoji2:emoji2:1.0.0] /Users/ogabekmatyakubov/.gradle/caches/transforms-3/285b36096429d634aa032f9c7d3c5a9a/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+54                android:value="androidx.startup" />
+54-->[androidx.emoji2:emoji2:1.0.0] /Users/ogabekmatyakubov/.gradle/caches/transforms-3/285b36096429d634aa032f9c7d3c5a9a/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+55            <meta-data
+55-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/ogabekmatyakubov/.gradle/caches/transforms-3/035b8c6f6691400f89933bf3dba8460e/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+56                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+56-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/ogabekmatyakubov/.gradle/caches/transforms-3/035b8c6f6691400f89933bf3dba8460e/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+57                android:value="androidx.startup" />
+57-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/ogabekmatyakubov/.gradle/caches/transforms-3/035b8c6f6691400f89933bf3dba8460e/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+58        </provider>
+59    </application>
+60
+61</manifest>
